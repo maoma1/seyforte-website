@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: transparent;
+    
+    
+}
+.main {
+    width: 100%;
+    background:linear-gradient(to top, rgba(0,0,0,0.5)75%,rgba(0,0,0,0.5)75%), url(images/pexels-klaus-167676.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.navbar-brand {
+    color: white;
+    font-family: 'Michroma', sans-serif;
+}
+ 
+.nav-link {
+    
+    color: white;
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    padding-right: 10rem;
+    
+}
+
+.navbar-toggler-icon {
+    color: white;
+}
+
+
+
+.main-h1 {
+    text-align: center;
+    color: white;
+    position: relative;
+    padding-top: 300px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main-paragraph {
+    text-align: center;
+    color: white;
+    position: relative;
+    padding-top: 20px;
+}
+
+    
+.about{
+    width: 100%;
+    background:linear-gradient(to top, rgba(0,0,0,0.5)75%,rgba(0,0,0,0.5)75%), url(images/main_image.JPG);
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.mission {
+    background-color: rgb(6, 6, 88);
+    position: absolute;
+    margin-top: -5rem;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+    border-radius: 2%;
+    margin-left: 32rem;
+
+    
+    
+    
+}
+
+
+.header-paragraph {
+
+    color: white;
+
+}
+
+.mission-header {
+    color: white
+
+}
+
+.mission-paragraph {
+    color: white;
+}
+
+
+
+
+.container {
+     border-top-color: rgb(10, 4, 65);
+     text-align: center;
+     padding-top: 9rem;
+     border-width: thick;
+     border-style: solid;
+     
+     margin-top: 3rem;
+}
+
+
