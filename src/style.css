@@ -16,6 +16,23 @@
     min-height: 100vh;
 }
 
+.main-h1 {
+    text-align: center;
+    color: white;
+    position: relative;
+    padding-top: 200px;
+    font-family: 'Acme', sans-serif;
+}
+
+
+.main-paragraph {
+    text-align: center;
+    color: white;
+    position: relative;
+    padding-top: 20px;
+    font-family: sans-serif;
+}
+
 .navbar-brand {
     color: white;
     font-family: 'Michroma', sans-serif;
@@ -36,46 +53,35 @@
 }
 
 
+.overlay {
+    max-width: 780px;
+    background:rgb(2, 7, 78);
+    padding: 40px;
+    margin: 0 auto;
+    margin-top: -100px;
+    box-shadow: 0px 1px 5px rgba(0,0,0,.7);
+  }
 
-.main-h1 {
-    text-align: center;
-    color: white;
-    position: relative;
-    padding-top: 300px;
-    font-family: 'Roboto', sans-serif;
+
+  .overlay h1 p {
+      color: white;
+      
+  }  
+
+
+.about-header {
+    padding-top: 3px;
+
 }
 
-.main-paragraph {
-    text-align: center;
-    color: white;
-    position: relative;
-    padding-top: 20px;
+.about-paragraph {
+    margin-top: 5px;
 }
 
-    
-.about{
-    width: 100%;
-    background:linear-gradient(to top, rgba(0,0,0,0.5)75%,rgba(0,0,0,0.5)75%), url(images/main_image.JPG);
-    background-position: center;
-    background-size: cover;
-    min-height: 100vh;
-}
 
-.mission {
-    background-color: rgb(6, 6, 88);
-    position: absolute;
-    margin-top: -5rem;
-    padding-top: 2rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    padding-bottom: 2rem;
-    border-radius: 2%;
-    margin-left: 32rem;
+  
 
-    
-    
-    
-}
+
 
 
 .header-paragraph {
@@ -85,12 +91,14 @@
 }
 
 .mission-header {
-    color: white
+    color: white;
+    text-align: center;
 
 }
 
 .mission-paragraph {
     color: white;
+    text-align: center;
 }
 
 
@@ -99,11 +107,25 @@
 .container {
      border-top-color: rgb(10, 4, 65);
      text-align: center;
-     padding-top: 9rem;
+     padding-top: 4rem;
      border-width: thick;
      border-style: solid;
      
      margin-top: 3rem;
 }
 
+.vision-img {
+    height: 10rem;
+}
+
+
+
+.footer {
+    background:linear-gradient(rgba(0,0,0,0.5)75%,rgba(0,0,0,0.5)75%), url(images/pexels-klaus-167676.jpg);
+}
+
+
+.footer-text-h5, p {
+    color: black;
+}
 
