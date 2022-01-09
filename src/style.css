@@ -3,11 +3,9 @@
     padding: 0;
 }
 
-.navbar {
-    background-color: transparent;
+
     
-    
-}
+
 .main {
     width: 100%;
     background:linear-gradient(to top, rgba(0,0,0,0.5)75%,rgba(0,0,0,0.5)75%), url(images/pexels-klaus-167676.jpg);
@@ -20,19 +18,12 @@
     text-align: center;
     color: white;
     position: relative;
-    padding-top: 200px;
+    padding-top: 100px;
     font-family: 'Acme', sans-serif;
     font-size: 3rem;
 }
 
 
-.main-paragraph {
-    text-align: center;
-    color: white;
-    position: relative;
-    padding-top: 20px;
-    font-family: sans-serif;
-}
 
 .navbar-brand {
     color: white;
@@ -44,17 +35,15 @@
     color: white;
     
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: medium;
+    font-size: large;
     padding-right: 10rem;
     
 }
 
-.navbar-toggler-icon {
-    color: white;
-}
 
 
-.overlay {
+
+#about-us {
     max-width: 780px;
     background:rgb(2, 7, 78);
     padding: 40px;
@@ -105,7 +94,7 @@
 
 
 
-.container {
+.about-us-main, .gallery {
      border-top-color: rgb(10, 4, 65);
      text-align: center;
      padding-top: 4rem;
@@ -121,9 +110,6 @@
 
 
 
-.footer {
-    background:linear-gradient(rgba(0,0,0,0.5)75%,rgba(0,0,0,0.5)75%), url(images/pexels-klaus-167676.jpg);
-}
 
 
 .footer-text-h5, p {
